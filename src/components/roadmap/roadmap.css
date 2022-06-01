@@ -1,0 +1,50 @@
+@import url("https://fonts.googleapis.com/css2?family=Bitter&family=Mate+SC&family=Raleway&family=Roboto:wght@500&family=Source+Sans+Pro:wght@300;600&family=Squada+One&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.main-heading {
+  display: flex;
+  margin-top: 10px;
+  padding: 10px 0px;
+  background: #e7feff;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+}
+
+.main-heading:first-child {
+  margin-top: 6px;
+}
+
+.main-heading h3 {
+  margin-left: 30px;
+  font-family: "Mate SC", serif;
+  color: #303243;
+  font-family: "Raleway", sans-serif;
+  word-spacing: 1px;
+  letter-spacing: 1px;
+  font-weight: 600;
+  font-size: 22px;
+}
+
+.main-heading p {
+  cursor: pointer;
+  border-radius: 50%;
+  box-shadow: rgba(17, 17, 26, 0.1) 0px 4px 16px,
+    rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px;
+  background: #fff;
+  padding: 5px;
+}
+
+.answers {
+  padding: 20px 15px ;
+  font-family: "Raleway", sans-serif;
+  font-size: 20px;
+  word-spacing: 2px;
+  font-weight: 300;
+  background: #d6fac6;
+  color: rgb(40, 37, 53);
+  text-align: center;
+}
